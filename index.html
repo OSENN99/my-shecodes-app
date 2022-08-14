@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+        color: rgb(124, 124, 124);
+        font-size: 48px;
+
+        font-weight: 300;
+        text-align: center;
+      }
+       h2 {
+        color: rgb(124, 124, 124);
+        font-size: 40px;
+
+        font-weight: 300;
+        text-align: center;
+      }
+      h4 {
+        color:rgb(124, 124, 124);
+        font-size: 20px;
+
+        font-weight: 300;
+        text-align: center;
+     }
+      form {
+        
+         padding: 25px;
+        line-height: 1.5;
+        font-size: 15px;
+        margin: 20px 0 10px;
+      }
+
+      .col {color:rgba(50, 48, 48, 0.525);
+      text-align: center;
+    }
+    </style>
+    <script src="https://kit.fontawesome.com/5ed5b5b5b3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <form class="search-form" id="search-form">
+      
+      <input 
+      type="search"
+      id="city-input"
+      name="search"
+      autofocus="on"
+        autocomplete="off" placeholder="Enter location..." />
+      <br />
+      <input type="submit" value="Search 🔍"/>
+
+     
+    </form>
+  
+    <div class="container">
+      <h1 id= "place">Kalix</h1>
+				
+      <h2>
+     
+      <i class="fa-solid fa-cloud fa-beat" style="--fa-animation-duration: 3s;"></i>
+      
+      </h2>
+      <h2> 
+          <p id="date"> </p> <br> 
+        <span class="temperature" id="temperature">18</span>
+        <span class="units" id="units">
+          <a href="#" class="celcius" id="celcius">°C</a>
+        
+        </span>
+        
+        </h2>
+        
+        <h4>Humidity: 53%
+            <br>
+            Wind: 2 km/h
+     
+        </h4>
+      <br>
+      
+<div class="container">
+  <div class="row row-cols-5">
+    <div class="col">
+     TUE
+      <br>
+      <strong> 19°C</strong><br>
+      <i class="fa-solid fa-sun"></i>
+    </div>
+    <div class="col">
+      WED<br>
+      <strong>18°C</strong><br>
+      <i class="fa-solid fa-cloud-sun-rain"></i>
+    
+    </div>
+    <div class="col">
+      THU<br>
+      <strong>20°C</strong><br>
+   <i class="fa-solid fa-cloud-rain"></i>
+    </div>
+    <div class="col">
+      FRI<br>
+      <strong>19°C</strong><br>
+     <i class="fa-solid fa-cloud-rain"></i>
+    </div>
+    <div class="col">
+      SAT<br>
+      <strong>21°C</strong><br>
+     <i class="fa-solid fa-sun"></i>
+    </div>
+  </div>
+</div> 
+          
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
