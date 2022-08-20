@@ -80,7 +80,7 @@ function displayTempInFarh(event) {
   event.preventDefault();
   celsLink.classList.remove("active");
   farhLink.classList.add("active");
-  let temperatureElement = document.querySelector("#temparature");
+  let temperatureElement = document.querySelector("#temperature");
   let farhTemp = celsiusTemp * 1.8 + 32;
   temperatureElement.innerHTML = Math.round(farhTemp);
 }
@@ -89,7 +89,7 @@ function displayTempInCels(event) {
   event.preventDefault();
   celsLink.classList.add("active");
   farhLink.classList.remove("active");
-  let temperatureElement = document.querySelector("#temparature");
+  let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(celsiusTemp);
 }
 let celsiusTemp = null;
