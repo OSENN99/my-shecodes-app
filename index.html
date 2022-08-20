@@ -23,7 +23,7 @@
           <div class="col-6">
             <input
               type="search"
-              placeholder="Enter your location..."
+              placeholder="Enter location..."
               autofocus="on"
               autocomplete="off"
               class="form-control shadow-sm"
@@ -39,7 +39,13 @@
             />
           </div>
           <div class="col-3">
-           
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              id="geo-position-button"
+            >
+              My location
+            </button>
           </div>
         </div>
       </form>
@@ -67,7 +73,7 @@
             </div>
             <div class="col-6">
               <ul>
-                <li>pressure: <span id="pressure"></span>hPa</li>
+                <li>pressure: <span id="pressure"></span></li>
                 <li>humidity: <span id="humidity"></span></span>%</li>
                 <li>wind: <span id="wind"></span></span> km/h</li>
               </ul>
@@ -80,6 +86,7 @@
           >
           by Ana Voronkova</small
         >
+        </small>
       </div>
     </div>
     <script src="src/app.js"></script>
