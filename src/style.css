@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -36,7 +36,7 @@ a {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #8e9aaa;
+  border: 1px solid #d9dce0;
   border-radius: 5px;
 }
 .overview {
@@ -66,4 +66,20 @@ a {
 }
 .active:hover {
   color: #202124;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-min {
+  opacity: 0.5;
+}
+.weather-forecats-temperatures {
+  font-size: 13px;
 }
